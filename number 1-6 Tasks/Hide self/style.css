@@ -1,0 +1,11 @@
+body {
+  text-align: center;
+  background-color: rgb(241, 211, 155);
+}
+#hider {
+  background-color: darkblue;
+  color: white;
+  font-size: 100px;
+  font-weight: bold;
+  margin: 100px;
+}
