@@ -1,0 +1,21 @@
+body {
+  text-align: center;
+  background-color: paleturquoise;
+}
+#thumbs {
+  list-style: none;
+  padding: 20px;
+}
+#largeImg {
+  border: 10px solid black;
+}
+ul {
+  display: inline-flex;
+}
+ul li {
+  border: 10px solid black;
+}
+a {
+  background-color: black;
+  margin: 0;
+}
