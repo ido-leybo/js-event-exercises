@@ -1,0 +1,16 @@
+body {
+  background-color: rgb(102, 24, 24);
+}
+legend {
+  background-color: antiquewhite;
+  border-radius: 8px;
+  text-decoration: underline;
+}
+#contents {
+  text-align: center;
+  width: 800px;
+  margin: 30px auto;
+  font-size: 30px;
+  background-color: antiquewhite;
+  border-radius: 10px;
+}
