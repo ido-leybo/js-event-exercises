@@ -1,0 +1,39 @@
+ul,
+#tree {
+  list-style-type: circle;
+  text-align: left;
+}
+
+#tree {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(126, 175, 177, 0.541);
+}
+
+.span {
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.span::before {
+  content: ">";
+  color: black;
+  display: inline-block;
+  margin-right: 6px;
+  font-size: 20px;
+}
+
+.span-open::before {
+  transform: rotate(90deg);
+}
+
+.new-list {
+  display: none;
+  list-style-type: none;
+}
+
+.active {
+  display: block;
+  list-style-type: disc;
+}
