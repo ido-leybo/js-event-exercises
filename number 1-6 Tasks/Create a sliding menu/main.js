@@ -1,20 +1,20 @@
-const menu = document.getElementById('menu');
-const paragraph = document.getElementById('para');
-let startLogo = document.getElementById('start');
-let afterLogo = document.getElementById('after');
-let ul = document.querySelector('ul');
+const button = document.getElementById("button");
+const ul = document.querySelector('ul');
+const after = document.getElementById('after');
+const before = document.getElementById('before');
+        
+ul.hidden = true;
+after.hidden = true
 
-ul.style.display = 'none';
-afterLogo.style.display = 'none';
-
-paragraph.addEventListener("click", event => {
-    afterLogo.style.display = 'inline';
-    startLogo.style.display = 'none';
-    ul.style.display = 'block';
-    paragraph.addEventListener('click', event => {
-        afterLogo.style.display = 'none';
-        startLogo.style.display = 'inline';
-        ul.style.display = 'none';
-    });
+button.addEventListener("click", event => {
+    if (ul.hidden === true) {
+        ul.hidden = false;
+        after.hidden = false;
+        before.hidden = true;
+    } else {
+        ul.hidden = true;
+        after.hidden = true;
+        before.hidden = false;
+    }
 });
 
